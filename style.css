@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    text-align: center;
+}
+
+.makan{
+    color: brown;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    border: 5px solid white;
+    overflow: auto;
+    display: flex;
+    flex-direction: column  ;
+}
+
+.child {
+    padding: 2px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.child img {
+    width: 50%;
+    box-sizing: border-box;
+
+}
+
+.child img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
